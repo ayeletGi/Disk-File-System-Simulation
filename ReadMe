@@ -1,0 +1,56 @@
+File:finalProject
+Virtual Disk File System Management
+=======================================================
+login user: ayeletgi
+Writen by:Ayelet Gibli
+Id:208691675
+
+This program simulates the Disk File System management by the operating system. (unix-fs style)
+The disk is a txt file.
+The file managememt Use direct blocks and one in-direct block.
+
+Compile: g++ finalProject.h finalProject.cpp main.cpp -o main
+Run: ./main
+
+Input: 
+A command number. If needed provide the command values.
+
+commands availble:
+0. Clear all and finish.
+
+1. Printing the disk content, and the files that exists in the system now.
+
+2. Format the disk.
+    please add block size & num of dierct enteries.
+
+3.Create a file.
+    please add file name.
+
+4.Open a file.
+    please add file name.
+
+5.Close a file.
+    please add the file fd.
+
+6.Write to a file.
+    please add file fd & string to write.
+
+7.Read from a file.
+    please add file fd & number of chars to read.
+
+8.Delete a file.
+    please add the file name.
+
+
+Output:
+According to the command output. 
+If there is an error-prints the error info and not the command output.
+
+Files:
+1)main.cpp - the main program.
+2)finalProject.h - classes definition.
+3)finalProject.cpp - classes implementation.
+4)README - this file.
+5)Makefile
+6)DISK_SIM_FILE.txt - the disk.
+
