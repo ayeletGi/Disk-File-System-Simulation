@@ -3,7 +3,6 @@ Virtual Disk File System Management
 =======================================================
 login user: ayeletgi
 Writen by:Ayelet Gibli
-Id:208691675
 
 This program simulates the Disk File System management by the operating system. (unix-fs style)
 The disk is a txt file.
